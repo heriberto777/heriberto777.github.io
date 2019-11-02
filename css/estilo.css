@@ -57,11 +57,56 @@ body
     font-style: italic;
     font-family: 'Courier New', Courier, monospace;
 }
-
-#seccion_b{
-    border: 0px solid #DDD;
-    
+.main_seccion {
+    /* background-image: url("../images/LogoAlftour.png");
+    height: 200px; */
+    background-size: cover;
+    background-position: center top;
+    padding: 15%;
+    display: flex;
 }
+
+#box_seccion{
+    padding: 10px;
+    margin-top: -150px;
+}
+
+#box_seccion #box_contenido{
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 2px black;
+}
+
+.img_content{
+    text-align: center;
+    width: 230px;
+}
+.img_contenido {
+    text-align: center;
+}
+
+.main_button{
+    background-color: blue;
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    border: 0;
+}
+
+.main_button{
+    background-color: blue;
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    border: 0;
+}
+
+.main_button:hover{
+    background-color: brown;
+}
+
 
 textarea{
     width: 100%;
